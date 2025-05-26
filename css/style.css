@@ -1,3 +1,13 @@
+body{ 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
 tr, td{
     border: 1px solid black;
 }
@@ -5,6 +15,7 @@ tr, td{
 td{
     width: 30px;
     height: 30px;
+    border: 1px solid black;
 }
 
 table{
